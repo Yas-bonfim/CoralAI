@@ -1,0 +1,13 @@
+name: coral
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - git            # o YOLO-World baixa o CLIP via git na primeira execucao
+  - numpy
+  - pillow
+  - pip:
+      - ultralytics   # YOLOv8 / YOLO-World (instala o PyTorch junto)
+      - opencv-python
