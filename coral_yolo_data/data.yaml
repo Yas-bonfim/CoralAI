@@ -1,0 +1,8 @@
+path: /home/yasmin/Documents/CoralAI/coral_yolo_data
+train: images/train
+val: images/val
+test: images/test
+nc: 2
+names:
+  0: bleached_coral
+  1: healthy_coral
